@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="first number"
+        android:textColor="#673AB7"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="46dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tx2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="second number"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="149dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/fn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="46dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="200dp"/>
+
+    <EditText
+        android:id="@+id/sn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="152dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="click ok"
+        android:textColor="#E91E63"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="312dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="130dp"/>
+
+    <TextView
+        android:id="@+id/out"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="500dp"
+        android:text="Ans is"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+</RelativeLayout>
